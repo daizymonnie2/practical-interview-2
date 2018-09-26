@@ -1,0 +1,73 @@
+<html>
+
+     <head>
+         <link rel="stylesheet" href="../static/css/bootstrap.css">
+         <style type="text/css">
+
+             h3{
+                 color: black;
+                 text-align: center;
+             }
+             hr{
+                 border: ridge forestgreen;
+                 width: 60%;
+             }
+             a{
+                 background-color: forestgreen;
+                 color: whitesmoke;
+                 padding: 1%;
+                 text-decoration: none ;
+                 text-decoration-color: forestgreen;
+             }
+             i{
+                 color: red;
+
+             }
+
+             body{
+                 background-color: aliceblue;
+             }
+
+
+
+         </style>
+
+
+           </head>
+      <body>
+      <h1 class="jumbotron text-center ">LOGIN</h1>
+      <br>
+
+         <br>
+<i> {{ msg1 }}</i>
+
+        <form action="/login.html" method="POST">
+             <input class="form-control" type="text" name="username" placeholder="Enter Your UserName">
+             <br><br>
+
+             <input class="form-control" type="password" name="password" placeholder="Enter Your Password">
+             <br><br>
+             <input class="btn btn-success" type="submit" value="LOGIN">
+
+
+         </form>
+         <a href="/register">Don't Have an Account?</a>
+         <br><br>
+
+
+
+
+
+   </body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
